@@ -1,0 +1,15 @@
+[
+  {
+    "top": 120,
+    "left": 40,
+    "height": 220,
+    "width": 360,
+    "fillColor": {
+      "R": 255,
+      "G": 0,
+      "B": 40,
+      "A": 255
+    },
+    "borderRadius": 50
+  }
+]
