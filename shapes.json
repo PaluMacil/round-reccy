@@ -2,7 +2,7 @@
   {
     "top": 120,
     "left": 40,
-    "height": 220,
+    "height": 260,
     "width": 360,
     "fillColor": {
       "R": 255,
@@ -11,5 +11,43 @@
       "A": 255
     },
     "borderRadius": 50
+  },
+  {
+    "top": 220,
+    "left": 160,
+    "height": 120,
+    "width": 360,
+    "fillColor": {
+      "R": 0,
+      "G": 0,
+      "B": 200,
+      "A": 100
+    },
+    "borderRadius": 15
+  },
+  {
+    "top": 350,
+    "left": 340,
+    "height": 60,
+    "width": 60,
+    "fillColor": {
+      "R": 0,
+      "G": 128,
+      "B": 128,
+      "A": 255
+    },
+    "borderRadius": 30
+  },
+  {
+    "top": 20,
+    "left": 460,
+    "height": 180,
+    "width": 180,
+    "fillColor": {
+      "R": 210,
+      "G": 180,
+      "B": 140,
+      "A": 255
+    }
   }
 ]

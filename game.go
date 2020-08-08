@@ -71,7 +71,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 		// copy final image to screen with geo transform
 		finalOpt := &ebiten.DrawImageOptions{}
 		// TODO: right now copy overwrites destination alpha, but copy is fine for now
-		finalOpt.CompositeMode = ebiten.CompositeModeCopy
+		finalOpt.CompositeMode = ebiten.CompositeModeSourceOver //Copy
 		finalOpt.GeoM.Translate(float64(shape.Left), float64(shape.Top))
 		screen.DrawImage(finalImg, finalOpt)
 	}
